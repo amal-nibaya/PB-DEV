@@ -13,10 +13,39 @@
                 <name>mage/translate.js</name>
             </action>
         </reference>
+        <reference name="jsfooter">
+            <action method="addJs">
+                <script>mainbody/mainbody.js</script>
+            </action>
+        </reference>
 
         <reference name="content">
-            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/fpbeer.phtml">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody.phtml">
             </block>
         </reference>
     </fpbeer_index_index>
+    <fpbeer_home_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+
+        <reference name="head">
+            <action method="removeItem">
+                <type>js</type>
+                <name>mage/translate.js</name>
+            </action>
+        </reference>
+        <reference name="jsfooter">
+            <action method="addJs">
+                <script>home/home.js</script>
+            </action>
+        </reference>
+
+        <reference name="content">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/home.phtml">
+            </block>
+        </reference>
+    </fpbeer_home_index>
 </layout>

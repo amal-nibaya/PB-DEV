@@ -37,7 +37,10 @@
                                         <div class="checkbox">
                                             <label>
                                                 Remember me
-                                                <input type="checkbox">
+                                                <div class="squaredFour">
+                                                    <input type="checkbox" value="None" id="rememberMe" name="check" />
+                                                    <label for="rememberMe"></label>
+                                                </div>
                                             </label>
                                         </div>
                                     </div>
@@ -58,10 +61,12 @@
                     </div>
                     <div class="row">
                         <div class="btnSection">
-                            <button type="button" class="btn btn-danger">Yes</button>
-                            <button type="button" class="btn btn-danger">No</button>
+                            <button id="legalYes" type="button" class="btn btn-danger">Yes</button>
+                            <button id="legalNo" type="button" class="btn btn-danger">No</button>
                         </div>
                     </div>
+                    
+                    <div class="clearfix"></div>
                     <div class="msgSection">
                         <div class="row">
                             <div class="liceneseDetails">
@@ -77,6 +82,19 @@
                         <div class="row">
                             <div class="warningMsg">
                                 <h6>Warning</h6>
+                                <p>Under the Liquor Control Act 1988, it is an offence:
+                                    <ul>
+                                        <li>To sell or supply liquor to a person under the age of 18 years on licensed or regulated premises; or </li>
+                                        <li>For a person under the age of 18 years to purchase, or attempt to purchase, liquor on licensed or regulated premises.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="legalNoMsg">
+                        <div class="row">
+                            <div class="msg">
+                                <h6>Warning No Access</h6>
                                 <p>Under the Liquor Control Act 1988, it is an offence:
                                     <ul>
                                         <li>To sell or supply liquor to a person under the age of 18 years on licensed or regulated premises; or </li>

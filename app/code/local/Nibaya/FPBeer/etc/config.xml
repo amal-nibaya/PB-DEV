@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Nibaya_FPBeer>
+            <version>0.1.0</version>
+        </Nibaya_FPBeer>
+    </modules>
+    <frontend>
+        <routers>
+            <fpbeer>
+                <use>standard</use>
+                <args>
+                    <module>Nibaya_FPBeer</module>
+                    <frontName>fpbeer</frontName>
+                </args>
+            </fpbeer>
+        </routers>
+        <layout>
+            <updates>
+                <fpbeer module="Nibaya_FPBeer">
+                    <file>fpbeer.xml</file>
+                </fpbeer>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <fpbeer>
+                <class>Nibaya_FPBeer_Block</class>
+            </fpbeer>
+        </blocks>
+    </global>
+</config>

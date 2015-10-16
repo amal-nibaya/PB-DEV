@@ -1,0 +1,531 @@
+2015-10-15T05:32:06+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:33:50+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:33:53+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:34:00+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:34:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:34:36+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:34:38+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:34:41+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:34:54+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T05:35:27+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T06:03:49+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html1', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html1', 'root')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html1', 'root')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#8 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#12 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#13 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#14 {main}
+2015-10-15T06:03:58+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Head1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_head1', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_head1', 'head')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_head1', 'head')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T08:21:18+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Html_Head' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/html_head', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('core/html_head', 'google.jquery.c...')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('core/html_head', 'google.jquery.c...')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('', 'store')
+#15 {main}
+2015-10-15T10:22:10+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Nibaya_FPBeer_Block_Fpbeer1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer/fpbeer1', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer/fpbeer1', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer/fpbeer1', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T10:22:11+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Nibaya_FPBeer_Block_Fpbeer1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer/fpbeer1', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer/fpbeer1', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer/fpbeer1', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T10:26:22+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T10:26:23+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T10:26:35+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T10:26:36+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T10:26:38+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: fpbeer' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('fpbeer', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('fpbeer', 'fpbeer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('fpbeer', 'fpbeer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:04:28+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Blankheader' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_blank...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_blank...', 'blankheader')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_blank...', 'blankheader')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:05:00+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Blankheader' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_blank...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_blank...', 'blankheader')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_blank...', 'blankheader')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:05:01+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Blankheader' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_blank...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_blank...', 'blankheader')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_blank...', 'blankheader')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:05:21+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Blankheader' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_blank...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_blank...', 'blankheader')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_blank...', 'blankheader')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:05:23+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Blankheader' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_blank...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_blank...', 'blankheader')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_blank...', 'blankheader')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:06:21+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Footer1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_foote...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_foote...', 'footer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_foote...', 'footer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:06:40+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Footer1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_foote...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_foote...', 'footer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_foote...', 'footer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}
+2015-10-15T11:06:41+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Page_Block_Html_Footer1' in C:\xampp\htdocs\testmagento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('page/html_foote...', Array)
+#2 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/html_foote...', 'footer')
+#3 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/html_foote...', 'footer')
+#4 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\testmagento\app\code\local\Nibaya\FPBeer\controllers\IndexController.php(6): Mage_Core_Controller_Varien_Action->loadLayout()
+#9 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Nibaya_FPBeer_IndexController->indexAction()
+#10 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 C:\xampp\htdocs\testmagento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 C:\xampp\htdocs\testmagento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 C:\xampp\htdocs\testmagento\index.php(83): Mage::run('default')
+#15 {main}

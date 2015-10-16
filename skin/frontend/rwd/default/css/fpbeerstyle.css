@@ -1,0 +1,329 @@
+body.fpbeer-index-index {
+    background: url(../images/system/middle_bg.png) no-repeat;
+    background-size: cover;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    background: #FFFFFD;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.footer-container .footer {
+    width: 80%;
+    border-top: 0;
+    padding: 8px;
+    color: black;
+    margin: 0 auto;
+}
+
+.footer-container .footer .author {
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: smaller;
+    color: #635E5E;
+    font-weight: 600;
+}
+
+.footer-container .footer address {
+    text-align: center;
+    color: #635E5E;
+    margin: 0 auto;
+    font-size: smaller;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer-container .footer .social_links {
+    display: none;
+    position: absolute;
+    right: 15px;
+    padding: 5px;
+    bottom: 0px;
+}
+
+.fpbeer-index-index .footer-container .footer .social_links {
+    display: block;
+}
+
+.footer-container .footer .social_links ul {
+    display: initial;
+}
+
+.footer-container .footer .social_links ul li {
+    display: inline-table;
+    font-size: 18px;
+    color: #fff;
+    background: #848484;
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    padding-left: 13px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.footer-container .footer .social_links ul li a {
+    color: #fff;
+}
+
+.footer-container .footer .social_links ul li.facebook:hover {
+    background-color: #35529E;
+    text-shadow: 3px 2px 2px #333;
+}
+
+.footer-container .footer .social_links ul li.twitter:hover {
+    background-color: #4C7C92;
+    text-shadow: 3px 2px 2px #333;
+}
+
+.footer-container .footer .social_links ul li.youtube:hover {
+    background-color: #982130;
+    text-shadow: 3px 2px 2px #333;
+}
+
+.footer-container .footer address ul {
+    display: initial;
+    padding-left: 5px;
+}
+
+.footer-container .footer address ul li {
+    display: inline-table;
+    padding-left: 5px;
+    padding-right: 4px;
+    border-left: 1px solid #B3B0B0;
+}
+
+.footer-container .footer address ul li a {
+    text-decoration: none;
+    outline: none;
+    color: #635E5E;
+    cursor: pointer;
+}
+
+.footer-container .footer address ul li a:hover {
+    color: #CE041D;
+}
+
+.index-logo {
+    display: block;
+    position: relative;
+    width: 82px;
+    margin: 25px auto;
+}
+
+.index-logo div.logo {
+    background: url(../images/system/logo.png) no-repeat;
+    width: 82px;
+    height: 140px;
+    background-size: contain;
+}
+
+.index-dog div.dog {
+    display: block;
+    position: absolute;
+    background: url(../images/system/main_dog.png) no-repeat;
+    background-size: contain;
+    width: 484px;
+    height: 616px;
+    max-width: 100%;
+    max-height: 75vh;
+    right: 0;
+    bottom: 0;
+}
+
+.index-body-content {
+    height: 80vh;
+    overflow: hidden;
+}
+
+.form-container {
+    /*    top: 65%;*/
+    bottom: -48%;
+}
+
+.form-container .index-signin-form .well {
+    border-radius: 0;
+    padding: 35px;
+    box-shadow: 0px 0px 4px #423E3E;
+}
+
+.form-container .index-signin-form .well .panel {
+    background: #808080;
+    color: #fff;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.form-container .index-signin-form .well h3 {
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: #CF041D;
+}
+
+.form-container .index-signin-form .well .input-group {
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.form-container .index-signin-form .well input[type=email],
+.form-container .index-signin-form .well input[type=password] {
+    background-color: #C1BFBF;
+    color: #736F6F;
+    border: 0;
+    font-weight: 100;
+}
+
+.form-container .index-signin-form .well button[type=button] {
+    background-color: #EA394F;
+    color: #FFFFFF;
+    border-radius: 0;
+    font-weight: 100;
+    margin: 0 auto;
+    display: block;
+    font-size: large;
+    box-shadow: -2px 1px 5px #222;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form-container .index-signin-form .well button[type=button]:hover {
+    background: #D4283D;
+}
+
+.form-container .index-signin-form .well button[type=button] img {
+    float: right;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.form-container .index-signin-form .well .checkbox {
+    padding: 0;
+    margin: 0;
+    color: #D0051E;
+    float: right;
+}
+
+.form-container .index-signin-form .well .checkbox label {
+    font-weight: 500;
+}
+
+.form-container .index-signin-form .well input[type=checkbox] {
+    margin: 3px;
+    float: right;
+    position: initial;
+}
+
+.form-container .index-signin-form .well .input-group a {
+    color: #CF041D;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.form-container .index-signin-form .well input::-webkit-input-placeholder {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.form-container .index-signin-form .well input:-moz-placeholder {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.form-container .index-signin-form .well input::-moz-placeholder {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.form-container .index-legal-verifier .well {
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.73);
+    box-shadow: none;
+}
+
+.form-container .index-legal-verifier .well h2,
+.form-container .index-legal-verifier .well h4 {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.form-container .index-legal-verifier .well h4 {
+    font-size: medium;
+    text-transform: none;
+}
+
+.form-container .index-legal-verifier .well .btnSection {
+    width: 75%;
+    margin: 0 auto;
+    display: inline-flex;
+    margin-left: 35px;
+    padding-left: 65px;
+}
+
+.form-container .index-legal-verifier .well .liceneseDetails {
+    color: #fff;
+    text-align: center;
+    font-size: xx-small;
+}
+
+.form-container .index-legal-verifier .well .warningMsg {
+    margin: 0 auto;
+    width: 44%;
+    color: #fff;
+    text-align: center;
+    font-size: xx-small;
+}
+
+.form-container .index-legal-verifier .well .warningMsg ul li {
+    list-style: initial;
+    text-align: justify;
+}
+
+.form-container .index-legal-verifier .well .liceneseDetails h6,
+.form-container .index-legal-verifier .well .warningMsg h6 {
+    color: #fff;
+}
+
+.form-container .index-legal-verifier .well .btnSection button[type=button] {
+    width: 125px;
+    background-color: #EA394F;
+    color: #FFFFFF;
+    border-radius: 0;
+    font-weight: 100;
+    margin: 0 auto;
+    display: block;
+    font-size: medium;
+    box-shadow: -2px 1px 5px #222;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@-moz-document url-prefix() {
+    .footer-container .footer .social_links {
+        padding: 4px;
+    }
+    .form-container .index-signin-form .well button[type="button"] {
+        padding-left: 0;
+    }
+    .form-container .index-signin-form .well button[type=button] img {
+        float: right;
+        margin-left: 25px;
+        margin-top: -30px;
+    }
+    .form-container .index-legal-verifier .well .warningMsg {
+        width: 60%;
+    }
+}

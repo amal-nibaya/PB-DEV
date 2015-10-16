@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Nibaya_FPBeer>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Nibaya_FPBeer>
+    </modules>
+</config>

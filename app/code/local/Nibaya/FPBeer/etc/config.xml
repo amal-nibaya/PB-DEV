@@ -7,6 +7,10 @@
     </modules>
     <frontend>
         <routers>
+            <Nibaya_FPBeer>
+                <area>frontend</area>
+                <class>Nibaya_FPBeer_Controller_Router</class>
+            </Nibaya_FPBeer>
             <fpbeer>
                 <use>standard</use>
                 <args>

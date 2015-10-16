@@ -20,10 +20,108 @@
         </reference>
 
         <reference name="content">
-            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody.phtml">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody/index.phtml">
             </block>
         </reference>
     </fpbeer_index_index>
+    <fpbeer_index_privacy>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/blank.phtml</template>
+            </action>
+        </reference>
+
+        <reference name="head">
+            <action method="removeItem">
+                <type>js</type>
+                <name>mage/translate.js</name>
+            </action>
+        </reference>
+        <reference name="jsfooter">
+            <action method="addJs">
+                <script>mainbody/privacy.js</script>
+            </action>
+        </reference>
+
+        <reference name="content">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody/privacy.phtml">
+            </block>
+        </reference>
+    </fpbeer_index_privacy>
+    <fpbeer_index_disclaimer>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/blank.phtml</template>
+            </action>
+        </reference>
+
+        <reference name="head">
+            <action method="removeItem">
+                <type>js</type>
+                <name>mage/translate.js</name>
+            </action>
+        </reference>
+        <reference name="jsfooter">
+            <action method="addJs">
+                <script>mainbody/privacy.js</script>
+            </action>
+        </reference>
+
+        <reference name="content">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody/disclaimer.phtml">
+            </block>
+        </reference>
+    </fpbeer_index_disclaimer>
+    <fpbeer_index_license>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/blank.phtml</template>
+            </action>
+        </reference>
+
+        <reference name="head">
+            <action method="removeItem">
+                <type>js</type>
+                <name>mage/translate.js</name>
+            </action>
+        </reference>
+        <reference name="jsfooter">
+            <action method="addJs">
+                <script>mainbody/privacy.js</script>
+            </action>
+        </reference>
+
+        <reference name="content">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody/privacy.phtml">
+            </block>
+        </reference>
+    </fpbeer_index_license>
+    <fpbeer_index_contactus>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/blank.phtml</template>
+            </action>
+        </reference>
+
+        <reference name="head">
+            <action method="removeItem">
+                <type>js</type>
+                <name>mage/translate.js</name>
+            </action>
+        </reference>
+        <reference name="jsfooter">
+            <action method="addJs">
+                <script>mainbody/privacy.js</script>
+            </action>
+        </reference>
+
+        <reference name="content">
+            <block type="fpbeer/fpbeer" name="mainbody" as="mainbody" template="page/mainbody/contactus.phtml">
+            </block>
+        </reference>
+    </fpbeer_index_contactus>
+    
+    
     <fpbeer_home_index>
         <reference name="root">
             <action method="setTemplate">
